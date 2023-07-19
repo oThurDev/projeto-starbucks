@@ -167,3 +167,36 @@ header .line{
     background-size: cover;
     background-position: center;
 }
+
+/*estilização da area2*/
+
+.area2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2-content{
+    padding: 80px;
+}
+
+.area2-content h4 {
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area2-content-img{
+    background-image: url(./assets/f4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.area2-img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url(./assets/f3.jpg);
+    background-size: cover;
+    background-position: center;
+}
