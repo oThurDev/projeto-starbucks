@@ -200,3 +200,30 @@ header .line{
     background-size: cover;
     background-position: center;
 }
+
+/*estilização da area3*/
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-content{
+    padding: 250px 80px;
+    background-image: url(./assets/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.area3-content h4 {
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3-img{
+    background-image: url(./assets/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}
